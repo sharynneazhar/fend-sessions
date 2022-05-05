@@ -60,6 +60,11 @@ table tbody tr {
   height: 75px;
 }
 
+table tbody tr td ul {
+  margin: 0;
+  padding-left: 10px;
+}
+
 .session-info {
   margin-bottom: 20px;
 }

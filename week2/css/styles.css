@@ -1,0 +1,100 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #262626;
+}
+
+.file-tree-image {
+  max-height: 400px;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 30px;
+}
+
+header nav ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #262626
+}
+
+header nav ul li a:hover {
+  color: #888;
+  text-decoration: underline;
+}
+
+.container {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+  margin-right: 300px;
+}
+
+.file-name {
+  font-style: italic;
+  font-weight: 600;
+  color: rgb(45, 45, 255);
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+form p {
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+}
+
+form input {
+  margin: 0 10px;
+}
+
+form button {
+  margin-left: 10px;
+  padding: 8px 10px;
+  outline: 0;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.result-img {
+  margin-top: 10px;
+  max-width: 500px;
+  max-height: 300px;
+}

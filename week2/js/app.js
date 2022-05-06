@@ -28,3 +28,9 @@ oneLevelUpForm.addEventListener('submit', (e) => handleInput(e, 'one-level-up-in
 
 const somewhereElseForm = document.getElementById('somewhere-else');
 somewhereElseForm.addEventListener('submit', (e) => handleInput(e, 'somewhere-else-input'));
+
+const nestedForm = document.getElementById('nested');
+nestedForm.addEventListener('submit', (e) => handleInput(e, 'nested-input'));
+
+const rootRelativeForm = document.getElementById('root-relative-path');
+rootRelativeForm.addEventListener('submit', (e) => handleInput(e, 'root-relative-path-input'));

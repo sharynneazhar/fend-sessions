@@ -30,7 +30,26 @@ const somewhereElseForm = document.getElementById('somewhere-else');
 somewhereElseForm.addEventListener('submit', (e) => handleInput(e, 'somewhere-else-input'));
 
 const nestedForm = document.getElementById('nested');
-nestedForm.addEventListener('submit', (e) => handleInput(e, 'nested-input'));
+nestedForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const img = event.target.parentNode.querySelector('img');
+  if (img) {
+    img.remove();
+  }
+
+  const inputValue = document.getElementById("nested-input").value;
+  const image = document.createElement('img');
+  image.classList.add('result-img');
+
+  if (inputValue === '../../nested/nested-again/nested-again-again/costume-pup.jpeg') {
+    image.src = inputValue;
+  } else {
+    image.src = 'wrongpath';
+  }
+
+  event.target.parentNode.append(image);
+});
 
 const rootRelativeForm = document.getElementById('root-relative-path');
 rootRelativeForm.addEventListener('submit', (e) => handleInput(e, 'root-relative-path-input'));

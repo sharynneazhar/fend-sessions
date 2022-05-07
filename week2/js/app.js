@@ -43,7 +43,7 @@ nestedForm.addEventListener('submit', (event) => {
   image.classList.add('result-img');
 
   if (inputValue === '../../nested/nested-again/nested-again-again/costume-pup.jpeg') {
-    image.src = inputValue;
+    image.src = '/fend-sessions/nested/nested-again/nested-again-again/costume-pup.jpeg';
   } else {
     image.src = 'wrongpath';
   }

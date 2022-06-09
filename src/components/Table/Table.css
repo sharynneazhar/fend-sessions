@@ -14,7 +14,8 @@ thead {
 }
 
 th {
-  padding: 10px 0;
+  padding: 10px 20px;
+  text-align: left;
   font-size: 12px;
   text-transform: uppercase;
   color: #fff;
@@ -56,6 +57,10 @@ td {
   font-size: 14px;
   text-decoration: none;
   color: #1d4e89;
+}
+
+.activities ul {
+  padding: 10px;
 }
 
 .activities a {

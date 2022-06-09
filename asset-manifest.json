@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fend-sessions/static/css/main.7918abb7.css",
+    "main.js": "/fend-sessions/static/js/main.cbd34d0e.js",
+    "index.html": "/fend-sessions/index.html",
+    "main.7918abb7.css.map": "/fend-sessions/static/css/main.7918abb7.css.map",
+    "main.cbd34d0e.js.map": "/fend-sessions/static/js/main.cbd34d0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7918abb7.css",
+    "static/js/main.cbd34d0e.js"
+  ]
+}

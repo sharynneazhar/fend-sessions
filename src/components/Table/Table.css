@@ -1,0 +1,65 @@
+table {
+  width: 100%;
+  margin-top: 70px;
+  grid-column-start: 2;
+  border-collapse: collapse;
+}
+
+table ul {
+  margin: 0;
+}
+
+thead {
+  background-color: #006d77;
+}
+
+th {
+  padding: 10px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+tr {
+  border: 1px solid #e2e2e2;
+}
+
+td {
+  padding: 10px 20px;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1c2541;
+}
+
+.complete {
+  color: #c33c54;
+}
+
+.concept-title {
+  margin: 0 0 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #006d77;
+}
+
+.concept-lesson {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.slides a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #1d4e89;
+}
+
+.activities a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #1d4e89;
+}

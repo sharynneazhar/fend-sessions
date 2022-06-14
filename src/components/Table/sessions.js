@@ -11,7 +11,7 @@ module.exports = [
     activities: [
       {
         name: "HTML Elements",
-        link: "https://3000-sharynneazh-fendsession-xl2wndr1kx5.ws-us47.gitpod.io/",
+        link: "https://sharynneazhar.github.io/fend-sessions/old/week1/index.html",
       },
     ],
   },
@@ -27,11 +27,11 @@ module.exports = [
     activities: [
       {
         name: "Block vs. Inline Elements",
-        link: "https://sharynneazhar.github.io/fend-sessions/week2/block-vs-inline.html",
+        link: "https://sharynneazhar.github.io/fend-sessions/old/week2/block-vs-inline.html",
       },
       {
         name: "File Paths",
-        link: "https://sharynneazhar.github.io/fend-sessions/week2/file-paths.html",
+        link: "https://sharynneazhar.github.io/fend-sessions/old/week2/file-paths.html",
       },
     ],
   },
@@ -47,7 +47,7 @@ module.exports = [
     activities: [
       {
         name: "HTML Validation",
-        link: "https://sharynneazhar.github.io/fend-sessions/week3/html-validation.html",
+        link: "https://sharynneazhar.github.io/fend-sessions/old/week3/html-validation.html",
       },
       {
         name: "CSS Selector Exercise",
@@ -67,7 +67,7 @@ module.exports = [
     activities: [
       {
         name: "Box Model",
-        link: "https://sharynneazhar.github.io/fend-sessions/week4/box-model.html",
+        link: "https://sharynneazhar.github.io/fend-sessions/old/week4/box-model.html",
       },
       {
         name: "Rothko Painting",
@@ -116,18 +116,26 @@ module.exports = [
     ],
   },
   {
-    complete: false,
+    complete: true,
     date: "06/09/2022",
     title: "Intermediate CSS",
     lesson: "Creating Responsive Layouts",
     slides: {
-      name: "",
-      link: "",
+      name: "Creating Responsive Layouts",
+      link: "https://docs.google.com/presentation/d/1nI3w-7bo3z7YPP1QssqZd_cz4EiYgjBdrATn4ZvTeN8/edit?usp=sharing",
     },
     activities: [
       {
         name: "Simple Resume Website",
-        link: "",
+        link: "https://sharynneazhar.github.io/udacity-resume-site/",
+      },
+      {
+        name: "Simple Resume Website - Codebase",
+        link: " https://github.com/sharynneazhar/udacity-resume-site",
+      },
+      {
+        name: "Simple Resume Website - Recording",
+        link: "https://youtu.be/lWOBvwgfArw",
       },
     ],
   },

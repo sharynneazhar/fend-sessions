@@ -9,8 +9,13 @@ function Header() {
       <nav>
         <ul>
           <Link to="/">Home</Link>
-          <Link to="/games">Games</Link>
-          <Link to="/contact">Contact</Link>
+          <a
+            href="https://github.com/sharynneazhar/fend-sessions"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
         </ul>
       </nav>
     </header>

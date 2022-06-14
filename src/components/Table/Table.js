@@ -4,12 +4,12 @@ import "./Table.css";
 
 function Table() {
   const getRows = () => {
-    return data.map((week) => {
+    return data.map((week, index) => {
       return (
-        <tr>
+        <tr key={`week-${index}`}>
           <td className="date">
             {week.complete ? (
-              <p class="complete">Complete</p>
+              <p className="complete">Complete</p>
             ) : (
               <p>{week.date}</p>
             )}
@@ -26,9 +26,9 @@ function Table() {
           <td className="activities">
             {week.complete && (
               <ul>
-                {week.activities.map((activity) => {
+                {week.activities.map((activity, index) => {
                   return (
-                    <li>
+                    <li key={`activity-${index}`}>
                       <a href={activity.link} target="_blank" rel="noreferrer">
                         {activity.name}
                       </a>

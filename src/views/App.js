@@ -1,3 +1,4 @@
+import ContactCard from "../components/ContactCard/ContactCard";
 import Header from "../components/Header/Header";
 import SessionDetail from "../components/SessionDetail/SessionDetail";
 import Table from "../components/Table/Table";
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <div className="App-grid">
         <SessionDetail />
+        <ContactCard />
         <Table />
       </div>
     </div>

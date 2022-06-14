@@ -1,7 +1,7 @@
-.session-detail {
+.contact-card {
   width: 230px;
   position: fixed;
-  top: 80px;
+  top: 200px;
   left: 20px;
   padding: 12px;
   background-color: #ffddd2;
@@ -10,13 +10,19 @@
   box-shadow: 8px 8px 2px -3px rgba(235, 235, 235, 1);
 }
 
-.session-detail h2 {
-  margin: 0;
+.contact-card h2 {
+  margin: 0 0 10px;
   font-size: 16px;
   text-decoration: underline;
 }
 
-.session-detail p {
+.contact-card img {
+  width: 60%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.contact-card p {
   margin-top: 5px;
   margin-bottom: 0;
   font-size: 12px;
@@ -24,7 +30,20 @@
   text-transform: uppercase;
 }
 
-.session-detail a {
-  font-size: 12px;
+.contact-card .socials {
+  margin-top: 10px;
+}
+
+.contact-card .socials a {
+  margin-right: 10px;
   text-decoration: none;
+  color: #888;
+}
+
+.github:hover {
+  color: #000 !important;
+}
+
+.linkedin:hover {
+  color: #0072b1 !important;
 }

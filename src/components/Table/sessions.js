@@ -146,7 +146,7 @@ module.exports = [
     lesson: 'JavaScript Data Types & Variables',
     slides: {
       name: 'Intro to JavaScript',
-      link: '',
+      link: 'https://docs.google.com/presentation/d/1TfaCzePQJkJwZTBViBM50cENIjExRNGCxaMQr9xdzqU/edit?usp=sharing',
     },
     activities: [
       {

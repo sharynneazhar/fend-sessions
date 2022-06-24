@@ -140,7 +140,7 @@ module.exports = [
     ],
   },
   {
-    complete: false,
+    complete: true,
     date: '06/16/2022',
     title: 'Intro to JavaScript',
     lesson: 'JavaScript Data Types & Variables',
@@ -156,20 +156,15 @@ module.exports = [
     ],
   },
   {
-    complete: false,
+    complete: true,
     date: '06/23/2022',
     title: 'Intro to JavaScript',
     lesson: 'Conditionals & Loops',
     slides: {
-      name: '',
-      link: '',
+      name: 'Conditionals & Loops',
+      link: 'https://docs.google.com/presentation/d/1crYt426m2tvs_rMdXx74JItzaQ014Z3IS3BKk84j7m8/edit?usp=sharing',
     },
-    activities: [
-      {
-        name: '',
-        link: '',
-      },
-    ],
+    activities: [],
   },
   {
     complete: false,

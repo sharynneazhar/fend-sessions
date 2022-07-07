@@ -1,0 +1,84 @@
+function _0x5789() {
+  const _0x57988d = [
+    "3818450BRcyyO",
+    "4JxXIPc",
+    "sizePicker",
+    "innerHTML",
+    "273192SOIIJT",
+    "3792432TJWNAM",
+    "submit",
+    "value",
+    "7357ZbzMaz",
+    "6568TCNdLi",
+    "inputWidth",
+    "addEventListener",
+    "insertRow",
+    "preventDefault",
+    "13944042RFLYET",
+    "getElementById",
+    "backgroundColor",
+    "2022876vxwFNf",
+    "569202YxFcHG",
+  ];
+  _0x5789 = function () {
+    return _0x57988d;
+  };
+  return _0x5789();
+}
+const _0x5cec76 = _0xc799;
+function _0xc799(_0x591b0b, _0x3fa5a1) {
+  const _0x57896e = _0x5789();
+  return (
+    (_0xc799 = function (_0xc799d8, _0x20e5e6) {
+      _0xc799d8 = _0xc799d8 - 0x1db;
+      let _0xa92326 = _0x57896e[_0xc799d8];
+      return _0xa92326;
+    }),
+    _0xc799(_0x591b0b, _0x3fa5a1)
+  );
+}
+(function (_0x4ed591, _0x58ca95) {
+  const _0x10c291 = _0xc799,
+    _0x320184 = _0x4ed591();
+  while (!![]) {
+    try {
+      const _0x50beb0 =
+        -parseInt(_0x10c291(0x1e3)) / 0x1 +
+        (-parseInt(_0x10c291(0x1e5)) / 0x2) *
+          (parseInt(_0x10c291(0x1e8)) / 0x3) +
+        parseInt(_0x10c291(0x1e2)) / 0x4 +
+        parseInt(_0x10c291(0x1e4)) / 0x5 +
+        -parseInt(_0x10c291(0x1e9)) / 0x6 +
+        (-parseInt(_0x10c291(0x1ec)) / 0x7) *
+          (parseInt(_0x10c291(0x1ed)) / 0x8) +
+        parseInt(_0x10c291(0x1df)) / 0x9;
+      if (_0x50beb0 === _0x58ca95) break;
+      else _0x320184["push"](_0x320184["shift"]());
+    } catch (_0x3a7cbf) {
+      _0x320184["push"](_0x320184["shift"]());
+    }
+  }
+})(_0x5789, 0x8bc3a);
+function makeGrid() {
+  const _0x53a1a2 = _0xc799,
+    _0xe2358 = document[_0x53a1a2(0x1e0)]("inputHeight")["value"],
+    _0x5bf957 = document["getElementById"](_0x53a1a2(0x1db))[_0x53a1a2(0x1eb)],
+    _0x50a691 = document[_0x53a1a2(0x1e0)]("pixelCanvas");
+  _0x50a691[_0x53a1a2(0x1e7)] = "";
+  for (let _0x3af957 = 0x0; _0x3af957 < _0xe2358; _0x3af957++) {
+    let _0x1f9028 = _0x50a691[_0x53a1a2(0x1dd)](_0x3af957);
+    for (let _0x5a82d0 = 0x0; _0x5a82d0 < _0x5bf957; _0x5a82d0++) {
+      let _0x4cb5bb = _0x1f9028["insertCell"](_0x5a82d0);
+      _0x4cb5bb[_0x53a1a2(0x1dc)]("click", () => {
+        const _0x28f45b = _0x53a1a2;
+        _0x4cb5bb["style"][_0x28f45b(0x1e1)] =
+          document[_0x28f45b(0x1e0)]("colorPicker")[_0x28f45b(0x1eb)];
+      });
+    }
+  }
+}
+const form = document[_0x5cec76(0x1e0)](_0x5cec76(0x1e6));
+form[_0x5cec76(0x1dc)](_0x5cec76(0x1ea), (_0x439210) => {
+  const _0x57cc1b = _0x5cec76;
+  _0x439210[_0x57cc1b(0x1de)](), makeGrid();
+});

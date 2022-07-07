@@ -183,13 +183,13 @@ module.exports = [
     title: "Intro to JavaScript",
     lesson: "Arrays & Objects",
     slides: {
-      name: "",
-      link: "",
+      name: "Arrays & Objects",
+      link: "https://docs.google.com/presentation/d/1k85f_OpGVZw1nNmQd8lcdMVxj-3qL0PUKcGIryn1ygs/edit?usp=sharing",
     },
     activities: [
       {
-        name: "",
-        link: "",
+        name: "Pixel Art Maker Guide",
+        link: "https://docs.google.com/presentation/d/1a-Vqqkag69w_9asMbMczXpGz80jDlMDlmUk_N9t9oNw/edit?usp=sharing",
       },
     ],
   },

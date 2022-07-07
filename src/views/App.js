@@ -9,8 +9,10 @@ function App() {
     <div className="App">
       <Header />
       <div className="App-grid">
-        <SessionDetail />
-        <ContactCard />
+        <div className="App-sidebar">
+          <SessionDetail />
+          <ContactCard />
+        </div>
         <Table />
       </div>
     </div>

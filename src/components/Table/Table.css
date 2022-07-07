@@ -1,7 +1,15 @@
+.table-container {
+  width: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-controls {
+  margin-bottom: 20px;
+}
+
 table {
   width: 100%;
-  margin-top: 70px;
-  grid-column-start: 2;
   border-collapse: collapse;
 }
 
@@ -16,7 +24,7 @@ thead {
 th {
   padding: 10px 20px;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   color: #fff;
 }
@@ -30,7 +38,7 @@ td {
 }
 
 .date {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   color: #1c2541;
@@ -42,19 +50,19 @@ td {
 
 .concept-title {
   margin: 0 0 5px;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   color: #006d77;
 }
 
 .concept-lesson {
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
 }
 
 .slides a {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   color: #1d4e89;
 }
@@ -64,7 +72,11 @@ td {
 }
 
 .activities a {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   color: #1d4e89;
+}
+
+.activities p {
+  font-size: 16px;
 }

@@ -8,7 +8,7 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
-  padding: 5px 15px;
+  padding: 5px 20px;
   background-color: #fff;
   box-shadow: 0 0 10px #ccc;
 }
@@ -20,7 +20,7 @@ header h1 {
 
 header nav a {
   margin-left: 32px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: none;
   color: #262626;

@@ -10,11 +10,18 @@ function Header() {
         <ul>
           <Link to="/">Home</Link>
           <a
-            href="https://github.com/sharynneazhar/fend-sessions"
+            href="https://sharynneazhar.github.io/fend-sessions/static/pixel-art-demo.html"
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            Pixel Art Maker Demo
+          </a>
+          <a
+            href="https://sharynneazhar.github.io/fend-sessions/static/landing-page-demo.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Landing Page Demo
           </a>
         </ul>
       </nav>

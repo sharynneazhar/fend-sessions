@@ -178,7 +178,7 @@ module.exports = [
     activities: [],
   },
   {
-    complete: false,
+    complete: true,
     date: "07/07/2022",
     title: "Intro to JavaScript",
     lesson: "Arrays & Objects",
@@ -186,28 +186,18 @@ module.exports = [
       name: "Arrays & Objects",
       link: "https://docs.google.com/presentation/d/1k85f_OpGVZw1nNmQd8lcdMVxj-3qL0PUKcGIryn1ygs/edit?usp=sharing",
     },
-    activities: [
-      {
-        name: "Pixel Art Maker Guide",
-        link: "https://docs.google.com/presentation/d/1a-Vqqkag69w_9asMbMczXpGz80jDlMDlmUk_N9t9oNw/edit?usp=sharing",
-      },
-    ],
+    activities: [],
   },
   {
     complete: false,
     date: "07/14/2022",
     title: "JavaScript & The DOM",
-    lesson: "ES6 Syntax",
+    lesson: "Pixel Art Maker Project",
     slides: {
-      name: "",
-      link: "",
+      name: "Pixel Art Maker Walkthrough",
+      link: "https://docs.google.com/presentation/d/1a-Vqqkag69w_9asMbMczXpGz80jDlMDlmUk_N9t9oNw/edit?usp=sharing",
     },
-    activities: [
-      {
-        name: "",
-        link: "",
-      },
-    ],
+    activities: [],
   },
   {
     complete: false,
@@ -230,6 +220,38 @@ module.exports = [
     date: "07/28/2022",
     title: "JavaScript & The DOM",
     lesson: "Browser Events",
+    slides: {
+      name: "",
+      link: "",
+    },
+    activities: [
+      {
+        name: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    complete: false,
+    date: "08/04/2022",
+    title: "JavaScript & The DOM",
+    lesson: "Landing Page Project",
+    slides: {
+      name: "",
+      link: "",
+    },
+    activities: [
+      {
+        name: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    complete: false,
+    date: "08/11/2022",
+    title: "JavaScript & The DOM",
+    lesson: "General Q&A",
     slides: {
       name: "",
       link: "",

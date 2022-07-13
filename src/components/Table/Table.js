@@ -59,6 +59,11 @@ function Table() {
 
   return (
     <div className="table-container">
+      <div className="table-alert">
+        ANNOUNCEMENT FOR FRIDAY CREW: DUE TO LOW ATTENDANCE, THE FRIDAY SESSION
+        WILL BE COMBINED WITH THE THURSDAY SESSION FROM NOW. SEE SESSION DETAILS
+        ON THE LEFT.
+      </div>
       <div className="table-controls">
         <label>
           Show Completed

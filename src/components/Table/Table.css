@@ -4,6 +4,15 @@
   flex-direction: column;
 }
 
+.table-alert {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 5px solid #c33c54;
+  color: #c33c54;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .table-controls {
   margin-bottom: 20px;
 }

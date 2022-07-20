@@ -189,7 +189,7 @@ module.exports = [
     activities: [],
   },
   {
-    complete: false,
+    complete: true,
     date: "07/14/2022",
     title: "JavaScript & The DOM",
     lesson: "Pixel Art Maker Project",

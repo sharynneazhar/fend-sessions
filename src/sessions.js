@@ -200,20 +200,15 @@ module.exports = [
     activities: [],
   },
   {
-    complete: false,
+    complete: true,
     date: "07/21/2022",
     title: "JavaScript & The DOM",
     lesson: "Creating DOM Content with JavaScript",
     slides: {
-      name: "",
-      link: "",
+      name: "JavaScript & the HTML DOM",
+      link: "https://docs.google.com/presentation/d/1B1yMsqMD7ghXpTgbj_MLNYPCcc5kKeCfxANDiO4ji-k/edit?usp=sharing",
     },
-    activities: [
-      {
-        name: "",
-        link: "",
-      },
-    ],
+    activities: [],
   },
   {
     complete: false,

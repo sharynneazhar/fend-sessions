@@ -211,7 +211,7 @@ module.exports = [
     activities: [],
   },
   {
-    complete: false,
+    complete: true,
     date: "07/28/2022",
     title: "JavaScript & The DOM",
     lesson: "Browser Events",
@@ -232,15 +232,10 @@ module.exports = [
     title: "JavaScript & The DOM",
     lesson: "Landing Page Project",
     slides: {
-      name: "",
-      link: "",
+      name: "Landing Page Project Walkthrough",
+      link: "https://docs.google.com/presentation/d/131lZ47Hrj2bpBgRuXvznuPFEbLuKM7M-sYrt8ueIx4M/edit?usp=sharing",
     },
-    activities: [
-      {
-        name: "",
-        link: "",
-      },
-    ],
+    activities: [],
   },
   {
     complete: false,

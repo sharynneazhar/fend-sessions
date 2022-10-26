@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="App-grid">
-        <div className="App-sidebar">
-          <SessionDetail />
-          <ContactCard />
-        </div>
+      <div className="App-sidebar">
+        <SessionDetail />
+        <ContactCard />
+      </div>
+      <div className="App-content">
         <Table />
       </div>
     </div>

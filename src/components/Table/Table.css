@@ -1,4 +1,5 @@
 .table-container {
+  height: 100%;
   width: 100;
   display: flex;
   flex-direction: column;
@@ -18,6 +19,7 @@
 }
 
 table {
+  height: 100%;
   width: 100%;
   border-collapse: collapse;
 }
@@ -27,7 +29,9 @@ table ul {
 }
 
 thead {
-  background-color: #006d77;
+  background-color: #e1e1e1;
+  position: sticky;
+  top: 59px;
 }
 
 th {
@@ -35,11 +39,19 @@ th {
   text-align: left;
   font-size: 14px;
   text-transform: uppercase;
-  color: #fff;
+  color: #444;
 }
 
 tr {
   border: 1px solid #e2e2e2;
+}
+
+.project-walkthrough {
+  background-color: rgb(249 157 157 / 27%);
+}
+
+.no-session {
+  background-color: rgba(157, 192, 249, 0.27);
 }
 
 td {

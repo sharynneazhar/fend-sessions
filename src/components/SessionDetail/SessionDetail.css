@@ -1,7 +1,7 @@
 .session-detail {
   width: 100%;
   padding: 20px;
-  background-color: #ffddd2;
+  border: 1px solid #e1e1e1;
   border-radius: 8px;
   text-align: left;
   box-shadow: 8px 8px 2px -3px rgba(235, 235, 235, 0.7);
@@ -22,6 +22,7 @@
 }
 
 .session-detail a {
+  word-wrap: break-word;
   font-size: 14px;
   text-decoration: none;
 }

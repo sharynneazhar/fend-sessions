@@ -1,11 +1,14 @@
-.App-grid {
-  display: grid;
-  grid-template-columns: 295px 1fr;
-  column-gap: 30px;
-  padding: 90px 20px 20px;
-}
-
 .App-sidebar {
+  position: fixed;
+  top: 90px;
+  left: 20px;
+  width: 275px;
   display: flex;
   flex-direction: column;
+}
+
+.App-content {
+  margin-top: 60px;
+  margin-left: 300px;
+  padding: 30px;
 }

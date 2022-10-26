@@ -1,5 +1,6 @@
 import React from "react";
-import data from "../../sessions";
+import moment from "moment-recur";
+import data from "../../sessions-c3";
 import "./Table.css";
 
 function Table() {
@@ -10,20 +11,33 @@ function Table() {
   };
 
   const getRows = () => {
-    let rowsToDisplay = data;
+    let rowsToDisplay = data.sessions;
 
     if (!showCompleted) {
       rowsToDisplay = rowsToDisplay.filter((row) => !row.complete);
     }
 
+    const dates = moment(data.startDate)
+      .recur(data.endDate)
+      .every(1, "week")
+      .all("L");
+
     return rowsToDisplay.map((week, index) => {
+      const getRowClass = () => {
+        if (week.title.toLowerCase() === "project walkthrough")
+          return "project-walkthrough";
+        else if (week.title.toLowerCase() === "no sessions")
+          return "no-session";
+        return "";
+      };
+
       return (
-        <tr key={`week-${index}`}>
+        <tr key={`week-${index}`} className={getRowClass()}>
           <td className="date">
             {week.complete ? (
               <p className="complete">Complete</p>
             ) : (
-              <p>{week.date}</p>
+              <p>{dates[index]}</p>
             )}
           </td>
           <td className="concept">
@@ -59,11 +73,11 @@ function Table() {
 
   return (
     <div className="table-container">
-      <div className="table-alert">
+      {/* <div className="table-alert">
         ANNOUNCEMENT FOR FRIDAY CREW: DUE TO LOW ATTENDANCE, THE FRIDAY SESSION
         WILL BE COMBINED WITH THE THURSDAY SESSION FROM NOW. SEE SESSION DETAILS
         ON THE LEFT.
-      </div>
+      </div> */}
       <div className="table-controls">
         <label>
           Show Completed

@@ -9,13 +9,13 @@ function Header() {
       <nav>
         <ul>
           <Link to="/">Home</Link>
-          <a
+          {/* <a
             href="https://sharynneazhar.github.io/fend-sessions/static/pixel-art-demo.html"
             target="_blank"
             rel="noreferrer"
           >
             Pixel Art Maker Demo
-          </a>
+          </a> */}
           <a
             href="https://sharynneazhar.github.io/fend-sessions/static/landing-page-demo.html"
             target="_blank"

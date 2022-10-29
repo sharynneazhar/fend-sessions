@@ -8,21 +8,24 @@
 }
 
 .session-detail h2 {
-  margin: 0;
-  font-size: 18px;
+  margin: 0 0 10px;
+  font-size: 20px;
   text-decoration: underline;
 }
 
 .session-detail p {
   margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 14px;
+  margin-bottom: 10px;
+  font-size: 16px;
   color: #1c2541;
   text-transform: uppercase;
 }
 
-.session-detail a {
-  word-wrap: break-word;
-  font-size: 14px;
-  text-decoration: none;
+.session-detail button {
+  padding: 0;
+  font-size: 16px;
+  outline: 0;
+  border: 0;
+  background-color: #fff;
+  color: blue;
 }

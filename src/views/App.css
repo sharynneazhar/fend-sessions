@@ -2,13 +2,43 @@
   position: fixed;
   top: 90px;
   left: 20px;
-  width: 275px;
+  width: 300px;
   display: flex;
   flex-direction: column;
 }
 
 .App-content {
   margin-top: 60px;
-  margin-left: 300px;
+  margin-left: 320px;
   padding: 30px;
+}
+
+.project-deadlines {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 8px 8px 2px -3px rgba(235, 235, 235, 0.7);
+  margin-top: 20px;
+}
+
+.project-deadlines h2 {
+  margin: 0;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #f82222;
+}
+
+.project-deadlines ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.project-deadlines ul li {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #1c2541;
+  text-transform: uppercase;
+  list-style-type: none;
 }

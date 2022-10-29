@@ -54,8 +54,8 @@ module.exports = {
     },
     {
       complete: false,
-      title: "NO SESSIONS",
-      lesson: "Thanksgiving Holiday",
+      title: "Intermediate CSS",
+      lesson: "CSS Flexbox",
       slides: {
         name: "",
         link: "",
@@ -65,7 +65,7 @@ module.exports = {
     {
       complete: false,
       title: "Intermediate CSS",
-      lesson: "CSS Flexbox && CSS Grid",
+      lesson: "CSS Grid",
       slides: {
         name: "",
         link: "",

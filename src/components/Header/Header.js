@@ -17,6 +17,13 @@ function Header() {
             Pixel Art Maker Demo
           </a> */}
           <a
+            href="https://sharynneazhar.github.io/udacity-fend-p2-blog-site/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Personal Blog Site Demo
+          </a>
+          <a
             href="https://sharynneazhar.github.io/fend-sessions/static/landing-page-demo.html"
             target="_blank"
             rel="noreferrer"

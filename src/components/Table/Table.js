@@ -53,11 +53,22 @@ function Table() {
             {week.activities?.[0]?.name ? (
               <ul>
                 {week.activities.map((activity, index) => {
+                  if (activity.link) {
+                    return(
+                      <li key={`activity-${index}`}>
+                        <a
+                          href={activity.link}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {activity.name}
+                        </a>
+                      </li>
+                    );
+                  }
                   return (
                     <li key={`activity-${index}`}>
-                      <a href={activity.link} target="_blank" rel="noreferrer">
-                        {activity.name}
-                      </a>
+                      {activity.name}
                     </li>
                   );
                 })}

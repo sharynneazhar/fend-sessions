@@ -7,10 +7,14 @@ module.exports = {
       title: "Intro to Web Development",
       lesson: "The Web and HTML: Concept 1-15",
       slides: {
-        name: "",
-        link: "",
+        name: "Welcome to the program!",
+        link: "https://docs.google.com/presentation/d/1oOYga58ZfvrU1QN80vH0X9Z7ahp44YLwvHtM7XiKbN0/edit?usp=sharing",
       },
-      activities: [],
+      activities: [
+        {
+          name: "VS Code Walkthrough (live demo - see crash course tutorial in slides for a similar tutorial)",
+        },
+      ],
     },
     {
       complete: false,

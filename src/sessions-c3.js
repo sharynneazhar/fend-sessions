@@ -3,7 +3,7 @@ module.exports = {
   endDate: "03/08/2023",
   sessions: [
     {
-      complete: false,
+      complete: true,
       title: "Intro to Web Development",
       lesson: "The Web and HTML: Concept 1-15",
       slides: {

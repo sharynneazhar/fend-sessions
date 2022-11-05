@@ -1,19 +1,19 @@
-@import url('../../main.css');
+@import url("../../main.css");
 
 main h3 {
   font-weight: 900;
 }
 
 .file-tree-image {
-  max-width: 500px;
+  max-width: 600px;
+  width: 600px;
   position: fixed;
   top: 90px;
-  right: 20px;
+  right: 30px;
 }
 
 section {
   margin-bottom: 50px;
-  margin-right: 375px;
 }
 
 .file-name {
@@ -23,12 +23,15 @@ section {
 }
 
 form {
+  max-width: 900px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 form code {
+  width: 100%;
   margin: 0;
   padding: 10px 20px;
   background-color: #f2f2f2;
@@ -36,6 +39,8 @@ form code {
 }
 
 form input {
+  display: inline;
+  width: 80%;
   margin: 0 10px;
 }
 

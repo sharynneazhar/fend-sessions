@@ -64,8 +64,3 @@ nestedForm.addEventListener("submit", (event) => {
 
   event.target.parentNode.append(image);
 });
-
-const rootRelativeForm = document.getElementById("root-relative-path");
-rootRelativeForm.addEventListener("submit", (e) =>
-  handleInput(e, "root-relative-path-input")
-);

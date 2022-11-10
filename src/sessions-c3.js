@@ -21,10 +21,19 @@ module.exports = {
       title: "Intro to Web Development",
       lesson: "The Web and HTML: Concepts 16-43",
       slides: {
-        name: "",
-        link: "",
+        name: "HTML Structure & File Paths",
+        link: "https://docs.google.com/presentation/d/1xzQHJcWqHUNCRfIgPhqjb28JT7gn9WRrtEQeAJZdI4M/edit?usp=sharing",
       },
-      activities: [],
+      activities: [
+        {
+          name: "Getting to Know You! (See Slide #18 - demo below)",
+          link: "https://codepen.io/sharynneazhar/pen/MWXaKLE ",
+        },
+        {
+          name: "Practicing File Paths",
+          link: "https://sharynneazhar.github.io/fend-sessions/old/week2/file-paths.html",
+        },
+      ],
     },
     {
       complete: false,

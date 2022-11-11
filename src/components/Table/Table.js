@@ -77,6 +77,11 @@ function Table() {
               <p>See Slides</p>
             ) : null}
           </td>
+          <td className="career-sessions">
+            <a href={week.careerLink} target="_blank" rel="noreferrer">
+              {week.careerLink}
+            </a>
+          </td>
         </tr>
       );
     });
@@ -85,7 +90,7 @@ function Table() {
   return (
     <div className="table-container">
       <div className="table-alert">
-        NO SESSIONS FROM 11/24 to 11/27 DUE TO HOLIDAYS.
+        NO SESSIONS ON 11/24 DUE TO THANKSGIVING.
       </div>
       <div className="table-controls">
         <label>
@@ -100,10 +105,11 @@ function Table() {
       <table>
         <thead>
           <tr>
-            <th>Week Starting</th>
+            <th style={{ width: '150px' }}>Week Starting</th>
             <th>Concepts</th>
             <th>Slides</th>
             <th>Activities</th>
+            <th>Career Session Recordings</th>
           </tr>
         </thead>
         <tbody>{getRows()}</tbody>

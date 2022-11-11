@@ -17,7 +17,7 @@ module.exports = {
       ],
     },
     {
-      complete: false,
+      complete: true,
       title: "Intro to Web Development",
       lesson: "The Web and HTML: Concepts 16-43",
       slides: {
@@ -34,6 +34,7 @@ module.exports = {
           link: "https://sharynneazhar.github.io/fend-sessions/old/week2/file-paths.html",
         },
       ],
+      careerLink: "https://onetenscholarshipc3.slack.com/files/U047VGSHC4U/F04A9T5UEJF/gmt20221109-230206_recording_1920x1080.mp4",
     },
     {
       complete: false,

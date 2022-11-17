@@ -34,17 +34,23 @@ module.exports = {
           link: "https://sharynneazhar.github.io/fend-sessions/old/week2/file-paths.html",
         },
       ],
-      careerLink: "https://onetenscholarshipc3.slack.com/files/U047VGSHC4U/F04A9T5UEJF/gmt20221109-230206_recording_1920x1080.mp4",
+      careerLink:
+        "https://onetenscholarshipc3.slack.com/files/U047VGSHC4U/F04A9T5UEJF/gmt20221109-230206_recording_1920x1080.mp4",
     },
     {
-      complete: false,
+      complete: true,
       title: "Intro to Web Development",
       lesson: "Styling with CSS: Concepts 1-20",
       slides: {
-        name: "",
-        link: "",
+        name: "CSS Intro",
+        link: "https://docs.google.com/presentation/d/1GUEMyi_LnGhYxJQ56JG3_ZHKizlvRyCuf5zAFEE5bQE/edit?usp=sharing",
       },
-      activities: [],
+      activities: [
+        {
+          name: "CSS Selector Practice",
+          link: "https://codepen.io/sharynneazhar/pen/rNKmmzR?editors=1100",
+        },
+      ],
     },
     {
       complete: false,

@@ -51,6 +51,8 @@ module.exports = {
           link: "https://codepen.io/sharynneazhar/pen/rNKmmzR?editors=1100",
         },
       ],
+      careerLink:
+        "https://onetenscholarshipc3.slack.com/archives/C0460R6C67L/p1668647200265469?thread_ts=1668639765.207269&cid=C0460R6C67L",
     },
     {
       complete: false,

@@ -55,14 +55,18 @@ module.exports = {
         'https://onetenscholarshipc3.slack.com/archives/C0460R6C67L/p1668647200265469?thread_ts=1668639765.207269&cid=C0460R6C67L',
     },
     {
-      complete: false,
+      complete: true,
       title: 'Intro to Web Development',
       lesson: 'Styling with CSS: Concepts 21-50',
       slides: {
         name: 'CSS Box Model & Containers',
         link: 'https://docs.google.com/presentation/d/1gYtTYllSOgnvkv1lENSIucZwJPsL0EeTodt0MEEcFto/edit?usp=sharing',
       },
-      activities: [],
+      activities: [
+        {
+          name: 'No activity - working session',
+        }
+      ],
     },
     {
       complete: false,

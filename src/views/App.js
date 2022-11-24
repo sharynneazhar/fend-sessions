@@ -13,10 +13,10 @@ function App() {
         <div class="project-deadlines">
           <h2>Project Deadlines</h2>
           <ul>
-            <li>Project 1: Nov. 25th</li>
-            <li>Project 2: Jan. 4th</li>
-            <li>Project 3: Feb. 1st</li>
-            <li>Project 4: Mar. 1st</li>
+            <li>Project 1: Nov. 21st</li>
+            <li>Project 2: Jan. 2nd</li>
+            <li>Project 3: Jan. 30th</li>
+            <li>Project 4: Feb. 27th</li>
           </ul>
         </div>
         <ContactCard />

@@ -65,11 +65,11 @@ module.exports = {
       activities: [
         {
           name: 'No activity - working session',
-        }
+        },
       ],
     },
     {
-      complete: false,
+      complete: true,
       title: 'Q&A Session',
       lesson: 'Ask me anything',
       slides: {
@@ -81,7 +81,7 @@ module.exports = {
     {
       complete: false,
       title: 'Intermediate CSS',
-      lesson: 'CSS Flexbox',
+      lesson: 'CSS Flexbox + GitHub (special topic)',
       slides: {
         name: '',
         link: '',

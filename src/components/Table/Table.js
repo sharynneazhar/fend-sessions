@@ -1,7 +1,7 @@
-import React from "react";
-import moment from "moment-recur";
-import data from "../../sessions-c3";
-import "./Table.css";
+import React from 'react';
+import moment from 'moment-recur';
+import data from '../../sessions-c3';
+import './Table.css';
 
 function Table() {
   const [showCompleted, setShowCompleted] = React.useState(true);
@@ -19,66 +19,62 @@ function Table() {
 
     const dates = moment(data.startDate)
       .recur(data.endDate)
-      .every(1, "week")
-      .all("L");
+      .every(1, 'week')
+      .all('L');
 
     return rowsToDisplay.map((week, index) => {
       const getRowClass = () => {
-        if (week.title.toLowerCase() === "project walkthrough")
-          return "project-walkthrough";
-        else if (week.title.toLowerCase() === "no sessions")
-          return "no-session";
-        return "";
+        if (week.title.toLowerCase() === 'project walkthrough')
+          return 'project-walkthrough';
+        else if (week.title.toLowerCase() === 'no sessions')
+          return 'no-session';
+        return '';
       };
 
       return (
         <tr key={`week-${index}`} className={getRowClass()}>
-          <td className="date">
+          <td className='date'>
             {week.complete ? (
-              <p className="complete">Complete</p>
+              <p className='complete'>Complete</p>
             ) : (
               <p>{dates[index]}</p>
             )}
           </td>
-          <td className="concept">
-            <h3 className="concept-title">{week.title}</h3>
-            <h4 className="concept-lesson">{week.lesson}</h4>
+          <td className='concept'>
+            <h3 className='concept-title'>{week.title}</h3>
+            <h4 className='concept-lesson'>{week.lesson}</h4>
           </td>
-          <td className="slides">
-            <a href={week.slides.link} target="_blank" rel="noreferrer">
+          <td className='slides'>
+            <a href={week.slides.link} target='_blank' rel='noreferrer'>
               {week.slides.name}
             </a>
           </td>
-          <td className="activities">
+          <td className='activities'>
             {week.activities?.[0]?.name ? (
               <ul>
                 {week.activities.map((activity, index) => {
                   if (activity.link) {
-                    return(
+                    return (
                       <li key={`activity-${index}`}>
                         <a
                           href={activity.link}
-                          target="_blank"
-                          rel="noreferrer"
+                          target='_blank'
+                          rel='noreferrer'
                         >
                           {activity.name}
                         </a>
                       </li>
                     );
                   }
-                  return (
-                    <li key={`activity-${index}`}>
-                      {activity.name}
-                    </li>
-                  );
+                  return <li key={`activity-${index}`}>{activity.name}</li>;
                 })}
               </ul>
             ) : week.complete ? (
               <p>See Slides</p>
             ) : null}
           </td>
-          <td className="career-sessions">
-            <a href={week.careerLink} target="_blank" rel="noreferrer">
+          <td className='career-sessions'>
+            <a href={week.careerLink} target='_blank' rel='noreferrer'>
               {week.careerLink}
             </a>
           </td>
@@ -88,15 +84,16 @@ function Table() {
   };
 
   return (
-    <div className="table-container">
-      <div className="table-alert">
-        NO SESSIONS ON 11/24 DUE TO THANKSGIVING.
+    <div className='table-container'>
+      <div className='table-alert'>
+        NO SESSION ON SUNDAY 12/4 THIS WEEK. PLEASE ATTEND EITHER SATURDAY OR
+        WEDNESDAY SESSION.
       </div>
-      <div className="table-controls">
+      <div className='table-controls'>
         <label>
           Show Completed
           <input
-            type="checkbox"
+            type='checkbox'
             checked={showCompleted}
             onChange={handleChange}
           />
@@ -105,7 +102,7 @@ function Table() {
       <table>
         <thead>
           <tr>
-            <th style={{ width: '150px' }}>Week Starting</th>
+            <th style={{width: '150px'}}>Week Starting</th>
             <th>Concepts</th>
             <th>Slides</th>
             <th>Activities</th>

@@ -79,14 +79,23 @@ module.exports = {
       activities: [],
     },
     {
-      complete: false,
+      complete: true,
       title: 'Intermediate CSS',
       lesson: 'CSS Flexbox + GitHub (special topic)',
       slides: {
-        name: '',
-        link: '',
+        name: 'CSS Flexbox + GitHub Intro',
+        link: 'https://docs.google.com/presentation/d/1GePytlrTihxKpEyZRE4cHIY6lwulmQs5Dw3aNcjmnfY/edit?usp=share_link',
       },
-      activities: [],
+      activities: [
+        {
+          name: "Flexbox Practice",
+          link: "https://codepen.io/sharynneazhar/pen/mdXLLdv?editors=1100",
+        },
+        {
+          name: "GitHub Recording",
+          link: "https://docs.google.com/presentation/d/1GePytlrTihxKpEyZRE4cHIY6lwulmQs5Dw3aNcjmnfY/edit?usp=share_link",
+        }
+      ],
     },
     {
       complete: false,

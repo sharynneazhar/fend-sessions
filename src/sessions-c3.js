@@ -88,24 +88,29 @@ module.exports = {
       },
       activities: [
         {
-          name: "Flexbox Practice",
-          link: "https://codepen.io/sharynneazhar/pen/mdXLLdv?editors=1100",
+          name: 'Flexbox Practice',
+          link: 'https://codepen.io/sharynneazhar/pen/mdXLLdv?editors=1100',
         },
         {
-          name: "GitHub Recording",
-          link: "https://docs.google.com/presentation/d/1GePytlrTihxKpEyZRE4cHIY6lwulmQs5Dw3aNcjmnfY/edit?usp=share_link",
-        }
+          name: 'GitHub Recording',
+          link: 'https://docs.google.com/presentation/d/1GePytlrTihxKpEyZRE4cHIY6lwulmQs5Dw3aNcjmnfY/edit?usp=share_link',
+        },
       ],
     },
     {
-      complete: false,
+      complete: true,
       title: 'Intermediate CSS',
       lesson: 'CSS Grid',
       slides: {
-        name: '',
-        link: '',
+        name: 'CSS Grid',
+        link: 'https://docs.google.com/presentation/d/1WTalAhWILDnKjqg2gzxUwX04YmTOU2irSqZSRbRn7bY/edit?usp=share_link',
       },
-      activities: [],
+      activities: [
+        {
+          name: 'Grid Practice',
+          link: 'https://codepen.io/sharynneazhar/pen/qBxVMZE?editors=1100',
+        },
+      ],
     },
     {
       complete: false,

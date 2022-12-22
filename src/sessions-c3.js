@@ -113,14 +113,23 @@ module.exports = {
       ],
     },
     {
-      complete: false,
+      complete: true,
       title: 'Intermediate CSS',
       lesson: 'Creating Responsive Layouts',
       slides: {
-        name: '',
-        link: '',
+        name: 'Media Queries & Creating Layouts w/ Grid and Flexbox',
+        link: 'https://slides.com/sharynneazhar/c3-week-8',
       },
-      activities: [],
+      activities: [
+        {
+          name: 'Mini-Project Starter',
+          link: 'https://github.com/sharynneazhar/udacity-responsive-site-tutorial/tree/main',
+        },
+        {
+          name: 'Mini-Project Solution',
+          link: 'https://github.com/sharynneazhar/udacity-responsive-site-tutorial/tree/solution',
+        },
+      ],
     },
     {
       complete: false,
@@ -137,8 +146,7 @@ module.exports = {
       title: 'Project Walkthrough',
       lesson: 'Personal Blog Website (Due Jan. 2nd)',
       slides: {
-        name: '',
-        link: '',
+        name: 'No sessions 12/31 and 01/01',
       },
       activities: [],
     },

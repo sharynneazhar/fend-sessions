@@ -45,9 +45,13 @@ function Table() {
             <h4 className='concept-lesson'>{week.lesson}</h4>
           </td>
           <td className='slides'>
-            <a href={week.slides.link} target='_blank' rel='noreferrer'>
-              {week.slides.name}
-            </a>
+            {!week.slides.link ? (
+              <span>{week.slides.name}</span>
+            ) : (
+              <a href={week.slides.link} target='_blank' rel='noreferrer'>
+                {week.slides.name}
+              </a>
+            )}
           </td>
           <td className='activities'>
             {week.activities?.[0]?.name ? (
@@ -86,8 +90,9 @@ function Table() {
   return (
     <div className='table-container'>
       <div className='table-alert'>
-        NO SESSION ON SUNDAY 12/4 THIS WEEK. PLEASE ATTEND EITHER SATURDAY OR
-        WEDNESDAY SESSION.
+        No sessions on 12/24-12/28 due to Christmas holidays. No sessions on
+        12/31 & 01/01 due to New Year holidays. Please attend my session on
+        Wednesday 01/04 instead as a substitute.
       </div>
       <div className='table-controls'>
         <label>

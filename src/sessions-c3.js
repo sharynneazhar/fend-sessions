@@ -132,7 +132,7 @@ module.exports = {
       ],
     },
     {
-      complete: false,
+      complete: true,
       title: 'NO SESSIONS',
       lesson: 'Holidays',
       slides: {
@@ -142,23 +142,31 @@ module.exports = {
       activities: [],
     },
     {
-      complete: false,
+      complete: true,
       title: 'Project Walkthrough',
       lesson: 'Personal Blog Website (Due Jan. 2nd)',
       slides: {
         name: 'No sessions 12/31 and 01/01',
       },
-      activities: [],
+      activities: [
+        {
+          name: 'Walkthrough Video',
+          link: 'https://drive.google.com/file/d/1FE9P5Qo8X_gH_McVxYu5JyMbkkjtSC7A/view?usp=share_link',
+        }
+      ],
     },
     {
-      complete: false,
+      complete: true,
       title: 'Intro to JavaScript',
-      lesson: 'JavaScript Data Types & Variables',
+      lesson: 'JavaScript Data Types',
       slides: {
-        name: '',
-        link: '',
+        name: 'JavaScript Intro',
+        link: 'https://slides.com/sharynneazhar/c3-week-11',
       },
-      activities: [],
+      activities: [{
+        name: "Data Types Practice",
+        link: 'https://gist.github.com/sharynneazhar/9ce932a11916b8c5b0c8bd0481edd4fa'
+      }],
     },
     {
       complete: false,
@@ -185,8 +193,8 @@ module.exports = {
       title: 'Project Walkthrough',
       lesson: 'Build a Shopping Cart (Due Jan. 30th)',
       slides: {
-        name: '',
-        link: '',
+        name: 'Walkthrough Video',
+        link: 'https://drive.google.com/file/d/1OCa_JPAVppqJn1tkC2Ob83LNOnSAuh9D/view?usp=share_link',
       },
       activities: [],
     },

@@ -90,9 +90,7 @@ function Table() {
   return (
     <div className='table-container'>
       <div className='table-alert'>
-        No sessions on 12/24-12/28 due to Christmas holidays. No sessions on
-        12/31 & 01/01 due to New Year holidays. Please attend my session on
-        Wednesday 01/04 instead as a substitute.
+        Sat. 01/21 and Sun. 01/22 sessions rescheduled to Wed. 01/25 due to Lunar New Year.
       </div>
       <div className='table-controls'>
         <label>

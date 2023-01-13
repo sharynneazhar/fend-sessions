@@ -90,7 +90,10 @@ function Table() {
   return (
     <div className='table-container'>
       <div className='table-alert'>
-        Sat. 01/21 and Sun. 01/22 sessions rescheduled to Wed. 01/25 due to Lunar New Year.
+        All sessions this week (1/14, 1/15, 1/18) rescheduled to Monday 1/16, 8-10pm EST!
+        <br></br>
+        <br></br>
+        No session Sat. 1/21 sessions due to Lunar New Year. Please attend either Sun. 1/22 or Wed. 1/25 sessions.
       </div>
       <div className='table-controls'>
         <label>

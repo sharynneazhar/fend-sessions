@@ -173,8 +173,8 @@ module.exports = {
       title: 'Intro to JavaScript',
       lesson: 'Variables, Conditionals, & Loops',
       slides: {
-        name: 'Slides',
-        link: 'https://slides.com/d/xQXzW9w/live',
+        name: 'Variables, Conditionals & Loops',
+        link: 'https://slides.com/sharynneazhar/week12',
       },
       activities: [],
     },

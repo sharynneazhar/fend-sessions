@@ -169,19 +169,19 @@ module.exports = {
       }],
     },
     {
-      complete: false,
+      complete: true,
       title: 'Intro to JavaScript',
-      lesson: 'Conditionals, Loops, & Functions',
+      lesson: 'Variables, Conditionals, & Loops',
       slides: {
-        name: '',
-        link: '',
+        name: 'Slides',
+        link: 'https://slides.com/d/xQXzW9w/live',
       },
       activities: [],
     },
     {
       complete: false,
       title: 'Intro to JavaScript',
-      lesson: 'Array & Objects',
+      lesson: 'Array, Objects, & Functions',
       slides: {
         name: '',
         link: '',

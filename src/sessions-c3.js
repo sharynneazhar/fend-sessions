@@ -179,12 +179,12 @@ module.exports = {
       activities: [],
     },
     {
-      complete: false,
+      complete: true,
       title: 'Intro to JavaScript',
       lesson: 'Array, Objects, & Functions',
       slides: {
-        name: '',
-        link: '',
+        name: 'Array, Objects, & Functions',
+        link: 'https://slides.com/sharynneazhar/week13',
       },
       activities: [],
     },

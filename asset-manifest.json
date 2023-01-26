@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fend-sessions/static/css/main.55fc8cde.css",
-    "main.js": "/fend-sessions/static/js/main.601d6fe3.js",
+    "main.js": "/fend-sessions/static/js/main.925dbdbd.js",
     "index.html": "/fend-sessions/index.html",
     "main.55fc8cde.css.map": "/fend-sessions/static/css/main.55fc8cde.css.map",
-    "main.601d6fe3.js.map": "/fend-sessions/static/js/main.601d6fe3.js.map"
+    "main.925dbdbd.js.map": "/fend-sessions/static/js/main.925dbdbd.js.map"
   },
   "entrypoints": [
     "static/css/main.55fc8cde.css",
-    "static/js/main.601d6fe3.js"
+    "static/js/main.925dbdbd.js"
   ]
 }

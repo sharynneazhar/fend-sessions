@@ -189,24 +189,17 @@ module.exports = {
       activities: [],
     },
     {
-      complete: false,
+      complete: true,
       title: 'Project Walkthrough',
       lesson: 'Build a Shopping Cart (Due Jan. 30th)',
       slides: {
+        name: 'Getting Started Guide',
+        link: 'https://slides.com/sharynneazhar/p3-build-a-shopping-cart',
+      },
+      activities: [{
         name: 'Walkthrough Video',
-        link: 'https://drive.google.com/file/d/1OCa_JPAVppqJn1tkC2Ob83LNOnSAuh9D/view?usp=share_link',
-      },
-      activities: [],
-    },
-    {
-      complete: false,
-      title: 'JavaScript & The DOM',
-      lesson: 'JavaScript Syntax',
-      slides: {
-        name: '',
-        link: '',
-      },
-      activities: [],
+        link: 'https://drive.google.com/file/d/1OCa_JPAVppqJn1tkC2Ob83LNOnSAuh9D/view?usp=share_link'
+      }],
     },
     {
       complete: false,
@@ -241,7 +234,17 @@ module.exports = {
     {
       complete: false,
       title: 'General',
-      lesson: 'Ask Me Anything!',
+      lesson: 'Q&A Session',
+      slides: {
+        name: '',
+        link: '',
+      },
+      activities: [],
+    },
+    {
+      complete: false,
+      title: 'General',
+      lesson: 'Q&A Session',
       slides: {
         name: '',
         link: '',

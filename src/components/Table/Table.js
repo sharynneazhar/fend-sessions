@@ -90,7 +90,6 @@ function Table() {
   return (
     <div className='table-container'>
       <div className='table-alert'>
-        No session Sat 2/18 and Sun 2/18. Please attend Wed 2/22 instead.
       </div>
       <div className='table-controls'>
         <label>

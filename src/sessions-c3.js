@@ -146,7 +146,8 @@ module.exports = {
       title: 'Project Walkthrough',
       lesson: 'Personal Blog Website (Due Jan. 2nd)',
       slides: {
-        name: 'No sessions 12/31 and 01/01',
+        name: 'Getting Started Guide',
+        link: 'https://slides.com/sharynneazhar/p2-personal-blog-project',
       },
       activities: [
         {
@@ -206,8 +207,8 @@ module.exports = {
       title: 'JavaScript & The DOM',
       lesson: 'The DOM & Creating Content with JS',
       slides: {
-        name: '',
-        link: '',
+        name: 'HTML Dom',
+        link: 'https://slides.com/sharynneazhar/week15',
       },
       activities: [],
     },
@@ -216,8 +217,8 @@ module.exports = {
       title: 'JavaScript & The DOM',
       lesson: 'Browser Events',
       slides: {
-        name: '',
-        link: '',
+        name: 'Browser Events',
+        link: 'https://slides.com/sharynneazhar/week16',
       },
       activities: [],
     },
@@ -226,10 +227,13 @@ module.exports = {
       title: 'Project Walkthrough',
       lesson: 'Landing Page (Due Feb. 27th)',
       slides: {
-        name: '',
-        link: '',
+        name: 'Getting Started Guide',
+        link: 'https://slides.com/sharynneazhar/landingpage',
       },
-      activities: [],
+      activities: [{
+        name: 'Walkthrough Video',
+        link: 'https://drive.google.com/file/d/1cEunSFtVIR_lgoKC3N4NNNBh7opQI3Ia/view?usp=share_link'
+      }],
     },
     {
       complete: false,

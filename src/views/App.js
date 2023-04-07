@@ -1,27 +1,18 @@
-import ContactCard from "../components/ContactCard/ContactCard";
-import Header from "../components/Header/Header";
-import SessionDetail from "../components/SessionDetail/SessionDetail";
-import Table from "../components/Table/Table";
-import "./App.css";
+import ContactCard from '../components/ContactCard/ContactCard';
+import Header from '../components/Header/Header';
+import SessionDetail from '../components/SessionDetail/SessionDetail';
+import Table from '../components/Table/Table';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
-      <div className="App-sidebar">
+      <div className='App-sidebar'>
         <SessionDetail />
-        <div class="project-deadlines">
-          <h2>Project Deadlines</h2>
-          <ul>
-            <li>Project 1: Nov. 21st</li>
-            <li>Project 2: Jan. 2nd</li>
-            <li>Project 3: Jan. 30th</li>
-            <li>Project 4: Feb. 27th</li>
-          </ul>
-        </div>
         <ContactCard />
       </div>
-      <div className="App-content">
+      <div className='App-content'>
         <Table />
       </div>
     </div>

@@ -1,32 +1,33 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Header.css";
+import React from 'react';
+import {Link} from 'react-router-dom';
+import './Header.css';
 
 function Header() {
   return (
     <header>
-      <h1>FEND Session Resources</h1>
+      <h1>
+        <Link to='/'>FEND Session Resources</Link>
+      </h1>
       <nav>
         <ul>
-          <Link to="/">Home</Link>
-          {/* <a
-            href="https://sharynneazhar.github.io/fend-sessions/static/pixel-art-demo.html"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Pixel Art Maker Demo
-          </a> */}
           <a
-            href="https://sharynneazhar.github.io/udacity-fend-p2-blog-site/"
-            target="_blank"
-            rel="noreferrer"
+            href='https://sharynneazhar.github.io/udacity-fend-p2-blog-site/'
+            target='_blank'
+            rel='noreferrer'
           >
             Personal Blog Site Demo
           </a>
           <a
-            href="https://sharynneazhar.github.io/fend-sessions/static/landing-page-demo.html"
-            target="_blank"
-            rel="noreferrer"
+            href='https://resilient-pastelito-186a22.netlify.app/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Build a Shopping Cart Demo
+          </a>
+          <a
+            href='https://sharynneazhar.github.io/fend-sessions/static/landing-page-demo.html'
+            target='_blank'
+            rel='noreferrer'
           >
             Landing Page Demo
           </a>

@@ -19,6 +19,11 @@ header h1 {
   font-size: 20px;
 }
 
+header h1 a {
+  text-decoration: none;
+  color: #262626;
+}
+
 header nav a {
   margin-left: 32px;
   font-size: 18px;
@@ -27,6 +32,7 @@ header nav a {
   color: #262626;
 }
 
+header h1 a:hover,
 header nav a:hover {
   color: #888;
   text-decoration: underline;

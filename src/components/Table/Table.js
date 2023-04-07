@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment-recur';
-import data from '../../sessions-c3';
+import data from '../../sessions-c4';
 import './Table.css';
 
 function Table() {
@@ -89,8 +89,7 @@ function Table() {
 
   return (
     <div className='table-container'>
-      <div className='table-alert'>
-      </div>
+      {/* <div className='table-alert'></div> */}
       <div className='table-controls'>
         <label>
           Show Completed
@@ -108,7 +107,6 @@ function Table() {
             <th>Concepts</th>
             <th>Slides</th>
             <th>Activities</th>
-            <th>Career Session Recordings</th>
           </tr>
         </thead>
         <tbody>{getRows()}</tbody>

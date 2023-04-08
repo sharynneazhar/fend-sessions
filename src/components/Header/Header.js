@@ -18,7 +18,7 @@ function Header() {
             Personal Blog Site Demo
           </a>
           <a
-            href='https://resilient-pastelito-186a22.netlify.app/'
+            href='https://udacity-shopping-cart-demo.netlify.app/'
             target='_blank'
             rel='noreferrer'
           >
